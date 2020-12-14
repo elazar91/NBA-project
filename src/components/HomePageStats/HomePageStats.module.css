@@ -1,0 +1,14 @@
+.Container{
+  height: 700px;
+  background: #f6f6f6;
+}
+
+.Container::before{
+  background: #f6f6f6;
+}
+
+.SectionContainer{
+  background: white;
+  margin: 100px 20px 0 20px;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06);
+}

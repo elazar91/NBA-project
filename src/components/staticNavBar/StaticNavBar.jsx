@@ -6,7 +6,6 @@ const StaticNavBar = () => {
   return (
     <React.Fragment>
       <div className={classes.Container}>
-        <span>burger</span>
         <span>NBA</span>
         <ul>
           <li>Games</li>

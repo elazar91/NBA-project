@@ -8,12 +8,15 @@
   margin-right: auto;
   font-family: Roboto,Arial,sans-serif;
   height: 55px;
-  justify-content:space-evenly;
+  justify-content: space-around;
+  padding: 0px 20px;
+  font-weight: 400;
 }
 
 ul{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
+  flex-grow: 2;
 }
