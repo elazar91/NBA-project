@@ -1,0 +1,11 @@
+.Table{
+  height: 200px;
+  width: auto;
+  padding: 8px;
+}
+
+.TR{
+  display: flex;
+  flex-direction: column;
+
+}

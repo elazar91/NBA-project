@@ -1,24 +1,14 @@
+import React from "react";
 import classes from "./HomePageStats.module.css";
 
-import React from "react";
+import CategoryHeader from "../../container/CtegoryHeader/CategoryHeader";
 
 const HomePageStats = () => {
   return (
     <div className={classes.Container}>
       <div className={classes.SectionContainer}>
-        <div>header</div>
-        <section>
-          <div>category header</div>
-          <table>
-            <tbody>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-            </tbody>
-          </table>
-        </section>
+        <div>player</div>
+        <CategoryHeader />
       </div>
     </div>
   );

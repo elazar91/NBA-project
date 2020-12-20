@@ -1,14 +1,10 @@
 .Container{
   height: 700px;
   background: #f6f6f6;
-}
-
-.Container::before{
-  background: #f6f6f6;
+  margin: 90px 30px;
 }
 
 .SectionContainer{
   background: white;
-  margin: 100px 20px 0 20px;
-  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06);
+  box-shadow: 0 0 10px 0 rgba(208,208,208,0.5);
 }

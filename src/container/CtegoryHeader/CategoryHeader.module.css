@@ -1,0 +1,8 @@
+.Ul{
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  margin: 3px;
+}
